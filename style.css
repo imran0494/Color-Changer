@@ -1,0 +1,61 @@
+html {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 60px;
+  
+}
+nav a{
+  /* margin: 10px; */
+  height: 60px;
+  border: 3px solid black ;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  color: rgb(230, 24, 131);
+  background-color: rgb(254, 245, 235);
+}
+
+span {
+  display: block;
+}
+.canvas {
+  margin: 100px auto 100px;
+  width: 80%;
+  text-align: center;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  border: solid black 2px;
+  display: inline-block;
+  border-radius: 5px;
+
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+#grey {
+  background: rgb(235, 160, 160);
+}
+
+#white {
+  background: rgb(114, 225, 147);
+}
+#blue {
+  background: rgb(134, 210, 236);
+}
+#yellow {
+  background: rgb(253, 145, 244);
+}
+
+#pink{
+  background-color: pink;
+}
